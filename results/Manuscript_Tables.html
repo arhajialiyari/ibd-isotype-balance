@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>IBD manuscript tables</title>
+<style>@page{size:A4 landscape;margin:14mm}body{font:15px/1.5 Arial,sans-serif;color:#17384b;margin:32px auto;max-width:1300px;padding:0 24px}h1{font-size:25px}h2{font-size:20px;margin-top:32px}table{border-collapse:collapse;table-layout:fixed;width:100%;font-size:13px}th,td{padding:10px;text-align:left;vertical-align:top;border-bottom:1px solid #d5dfe4;overflow-wrap:normal;word-break:normal}th{background:#17384b;color:white}tbody tr:nth-child(even){background:#f2f6f8}p{font-size:13px;color:#425863}@media print{body{margin:0;padding:0;font-size:10pt}table{font-size:9pt}th,td{padding:5pt}thead{display:table-header-group}tr{break-inside:avoid;page-break-inside:avoid}h2{break-after:avoid;page-break-after:avoid}}</style></head><body>
+<h1>IBD manuscript tables</h1><p>Generated in R from validated computed results. Numbers are formatted for display; full calculated precision remains in the R caches and supplementary workbook.</p>
+<h2>Table 1. Datasets, analysis populations, and study roles</h2>
+<table width="100%" cellpadding="6" cellspacing="0"><colgroup><col width="14%" style="width:14%"><col width="20%" style="width:20%"><col width="27%" style="width:27%"><col width="19%" style="width:19%"><col width="20%" style="width:20%"></colgroup><thead><tr><th>Dataset</th><th>Study role</th><th>Material and anatomical site</th><th>UC / CD, n</th><th>Expression input</th></tr></thead><tbody>
+<tr><td>GSE282122 (TAURUS)</td><td>Discovery</td><td>scRNA-seq; left colon; before study adalimumab initiation</td><td>Macrophage: 12 / 12; Fibroblast: 13 / 12</td><td>Raw counts</td></tr>
+<tr><td>GSE214695</td><td>Secondary candidate replication</td><td>scRNA-seq; colon</td><td>6 / 6</td><td>Raw counts</td></tr>
+<tr><td>GSE193677</td><td>Bulk development</td><td>Bulk RNA-seq; rectum</td><td>305 / 360</td><td>Estimated counts</td></tr>
+<tr><td>GSE117993</td><td>Principal external score evaluation</td><td>Bulk RNA-seq; rectum</td><td>43 / 92</td><td>TPM</td></tr>
+<tr><td>GSE111889 / HMP2</td><td>Context-only evaluation</td><td>Bulk RNA-seq; rectum</td><td>25 / 43</td><td>Counts; pooled CPM for abundance comparators</td></tr>
+<tr><td>GSE83687</td><td>Nonestimable score endpoint</td><td>Bulk RNA-seq; surgical intestinal specimens</td><td>Not estimable</td><td>FPKM</td></tr>
+<tr><td>GSE57945</td><td>Nonestimable score endpoint</td><td>Bulk RNA-seq; ileum</td><td>Not estimable</td><td>RPKM</td></tr>
+</tbody></table>
+<p>UC counts precede CD counts. Single-cell counts are donors; bulk counts are participants. TAURUS compartment populations overlap and must not be added. Development: 679 biopsies pooled before normalization. HMP2: 100 rectal samples pooled. Controls (55 external; 22 HMP2) are descriptive only and excluded from UC-CD discrimination.</p>
+<p>GSE117993 was a pediatric diagnostic cohort. HMP2 included pediatric and adult participants and is context only because of prior project exposure. GSE83687 lacks the required constant-gene annotation; GSE57945 has zero required components. Nonestimability is neither a negative validation nor a claim of zero participants. Material/unit descriptions are declared study metadata.</p>
+<h2>Table 2. Discrimination and paired comparisons with the seven-gene ratio</h2>
+<table width="100%" cellpadding="6" cellspacing="0"><colgroup><col width="13%" style="width:13%"><col width="25%" style="width:25%"><col width="22%" style="width:22%"><col width="25%" style="width:25%"><col width="15%" style="width:15%"></colgroup><thead><tr><th>Cohort</th><th>Measure</th><th>AUC (95% CI)</th><th>Delta AUC (95% CI)</th><th>Holm-adjusted P</th></tr></thead><tbody>
+<tr><td>GSE193677</td><td>Seven-gene ratio</td><td>0.671 (0.630 to 0.712)</td><td>Reference</td><td>Not applicable</td></tr>
+<tr><td>GSE193677</td><td>Summed IgG abundance</td><td>0.588 (0.545 to 0.631)</td><td>0.083 (0.058 to 0.108)</td><td>2.37e-10</td></tr>
+<tr><td>GSE193677</td><td>IGHG3 abundance</td><td>0.580 (0.536 to 0.623)</td><td>0.091 (0.064 to 0.119)</td><td>2.37e-10</td></tr>
+<tr><td>GSE193677</td><td>Total Ig abundance</td><td>0.483 (0.438 to 0.527)</td><td>0.189 (0.141 to 0.236)</td><td>2.24e-14</td></tr>
+<tr><td>GSE193677</td><td>IGHG3-to-other-Ig ratio</td><td>0.648 (0.607 to 0.690)</td><td>0.023 (0.005 to 0.041)</td><td>0.014</td></tr>
+<tr><td>GSE117993</td><td>Seven-gene ratio</td><td>0.777 (0.701 to 0.853)</td><td>Reference</td><td>Not applicable</td></tr>
+<tr><td>GSE117993</td><td>Summed IgG abundance</td><td>0.788 (0.713 to 0.863)</td><td>-0.011 (-0.049 to 0.026)</td><td>0.642</td></tr>
+<tr><td>GSE117993</td><td>IGHG3 abundance</td><td>0.810 (0.739 to 0.881)</td><td>-0.033 (-0.072 to 0.007)</td><td>0.312</td></tr>
+<tr><td>GSE117993</td><td>Total Ig abundance</td><td>0.735 (0.644 to 0.826)</td><td>0.042 (-0.041 to 0.125)</td><td>0.642</td></tr>
+<tr><td>GSE117993</td><td>IGHG3-to-other-Ig ratio</td><td>0.819 (0.750 to 0.888)</td><td>-0.042 (-0.078 to -0.005)</td><td>0.101</td></tr>
+<tr><td>GSE111889</td><td>Seven-gene ratio</td><td>0.723 (0.595 to 0.850)</td><td>Reference</td><td>Not applicable</td></tr>
+<tr><td>GSE111889</td><td>Summed IgG abundance</td><td>0.675 (0.525 to 0.825)</td><td>0.047 (-0.047 to 0.142)</td><td>0.969</td></tr>
+<tr><td>GSE111889</td><td>IGHG3 abundance</td><td>0.686 (0.544 to 0.827)</td><td>0.037 (-0.046 to 0.121)</td><td>0.969</td></tr>
+<tr><td>GSE111889</td><td>Total Ig abundance</td><td>0.616 (0.465 to 0.767)</td><td>0.107 (-0.018 to 0.232)</td><td>0.374</td></tr>
+<tr><td>GSE111889</td><td>IGHG3-to-other-Ig ratio</td><td>0.739 (0.613 to 0.865)</td><td>-0.016 (-0.093 to 0.061)</td><td>0.969</td></tr>
+</tbody></table>
+<p>UC is the positive class. Delta AUC is ratio minus comparator. Intervals are pointwise 95% DeLong intervals. Two-sided paired tests use retrospective Holm correction across four comparisons within each cohort. Development comparisons are exploratory and do not account for score selection; summed IgG is a post hoc addition. HMP2 is context only. Nonsignificance does not establish equivalence. Expanded multiplicity sensitivity is in Table S4.</p>
+<p>The score is log2[(G + 0.5)/(A + M + 0.5)], where G = IGHG1 + IGHG2 + IGHG3 + IGHG4, A = IGHA1 + IGHA2, and M = IGHM. Total Ig additionally includes IGHD, IGKC, IGLC1, IGLC2, and IGLC3. IGHG3-to-other-Ig is log2[(IGHG3 + 0.5)/(total Ig - IGHG3 + 0.5)]. Abundance transforms are cohort-specific and remain defined in the analysis modules.</p>
+</body></html>

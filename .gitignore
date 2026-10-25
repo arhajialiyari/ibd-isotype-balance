@@ -1,0 +1,14 @@
+/config/local.R
+/work/
+/data/
+/renv/bootstrap/
+/renv/library/
+/renv/staging/
+/renv/sandbox/
+/renv/cache/
+/results/Publication_Outputs.zip
+/*.zip
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/

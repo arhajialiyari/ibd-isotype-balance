@@ -1,0 +1,12 @@
+item	status	detail
+packaging_scope	PRIVATE_REPOSITORY_PREPARATION	Documentation and distribution records updated after completed validation; no scientific code or products changed
+scientific_entry_point	stage10.0	Same seven R files as the successfully executed isolated run
+scientific_output_revision	stage07.3	Twelve byte-preserved R-generated publication products
+numerical_reproduction	PASS	Available reference comparisons and complete isolated source-to-result run
+dependency_restoration	PASS	Nineteen remotely installed locked versions; independent namespace and compiled runtime probe accepted
+isolated_analysis	PASS	Seven analysis stages and independent comparison; zero warnings/failures
+visual_review	PASS_REVIEWED	Workbook and figures inspected; original automatic PNG review flag retained in the R report
+validated_platform	Windows_11_R_4.4.2	Bioconductor 3.20; other operating systems untested
+github_upload_at_packaging	NOT_RUN	User-created repository and successful empty local clone; no files uploaded by this package
+software_license	MIT	Author selected MIT on 2026-10-25 for original workflow code and project-authored documentation; third-party materials retain their original terms
+final_citation_metadata	PENDING_AUTHOR_CONFIRMATION	No DOI or release tag invented

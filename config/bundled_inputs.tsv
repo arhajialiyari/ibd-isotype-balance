@@ -1,0 +1,5 @@
+input_id	bundled_path	expected_bytes	expected_md5	provenance
+gse214695_sample_metadata	inputs/metadata/GSE214695_sample_metadata.tsv	3591	1dbb65a0196e0a85c2ad740f1ae79a3a	GEO source sample metadata; exact archived export
+gse193677_sample_metadata	inputs/metadata/GSE193677_sample_metadata.tsv	1708613	d6db674ea99551e5f7fe7d6abb2106a0	GEO source sample metadata; exact archived export
+gse117993_sample_metadata	inputs/metadata/GSE117993_sample_metadata.tsv	44948	893b94f37dc703129ba6dab5e09cae6b	GEO source sample metadata; exact archived export
+context_metadata	inputs/metadata/hmp2_metadata_2018-08-20.csv	9074342	465421f86e6eb104c9f98675ab209a35	HMP2 metadata snapshot; exact archived pinned-mirror bytes

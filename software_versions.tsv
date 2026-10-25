@@ -1,0 +1,20 @@
+package	version	source	repository	role
+BiocManager	1.30.27	Repository	CRAN	transitive_or_restore_support
+Matrix	1.7-1	Repository	CRAN	direct
+R6	2.6.1	Repository	CRAN	transitive_or_restore_support
+Rcpp	1.1.2	Repository	CRAN	transitive_or_restore_support
+bit	4.6.0	Repository	CRAN	transitive_or_restore_support
+bit64	4.8.2	Repository	CRAN	transitive_or_restore_support
+cli	3.6.4	Repository	CRAN	transitive_or_restore_support
+data.table	1.18.4	Repository	CRAN	direct
+edgeR	4.4.2	Bioconductor	Bioconductor 3.20	direct
+hdf5r	1.3.12	Repository	CRAN	direct
+lattice	0.22-6	Repository	CRAN	transitive_or_restore_support
+limma	3.62.2	Bioconductor	Bioconductor 3.20	direct
+locfit	1.5-9.12	Repository	CRAN	transitive_or_restore_support
+openxlsx	4.2.8.1	Repository	CRAN	direct
+pROC	1.19.0.1	Repository	CRAN	direct
+renv	1.2.4	Repository	CRAN	direct
+statmod	1.5.2	Repository	CRAN	direct
+stringi	1.8.9	Repository	CRAN	transitive_or_restore_support
+zip	3.0.2	Repository	CRAN	direct

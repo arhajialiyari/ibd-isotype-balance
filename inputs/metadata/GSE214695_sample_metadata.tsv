@@ -1,0 +1,19 @@
+study_id	sample_id	title	source_name	organism	platform_id	sample_type	molecule	diagnosis_raw	anatomy_raw	participant_raw	inflammation_raw	treatment_raw	characteristics_raw
+GSE214695	GSM6614348	HC 1, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	healthy control	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: healthy control
+GSE214695	GSM6614349	HC 2, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	healthy control	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: healthy control
+GSE214695	GSM6614350	HC 3, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	healthy control	sigma	NA	NA	NA	tissue: sigma | gender: Female | disease state: healthy control
+GSE214695	GSM6614351	HC 4, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	healthy control	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: healthy control
+GSE214695	GSM6614352	HC 5, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	healthy control	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: healthy control
+GSE214695	GSM6614353	HC 6, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	healthy control	sigma	NA	NA	NA	tissue: sigma | gender: Female | disease state: healthy control
+GSE214695	GSM6614354	UC 1, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	ulcerative colitis	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: ulcerative colitis
+GSE214695	GSM6614355	UC 2, scRNAseq, transverse colon	transverse colon	Homo sapiens	GPL18573	NA	total RNA	ulcerative colitis	transverse colon	NA	NA	NA	tissue: transverse colon | gender: Male | disease state: ulcerative colitis
+GSE214695	GSM6614356	UC 3, scRNAseq, rectum	rectum	Homo sapiens	GPL18573	NA	total RNA	ulcerative colitis	rectum	NA	NA	NA	tissue: rectum | gender: Female | disease state: ulcerative colitis
+GSE214695	GSM6614357	UC 4, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	ulcerative colitis	sigma	NA	NA	NA	tissue: sigma | gender: Female | disease state: ulcerative colitis
+GSE214695	GSM6614358	UC 5, scRNAseq, rectum	rectum	Homo sapiens	GPL18573	NA	total RNA	ulcerative colitis	rectum	NA	NA	NA	tissue: rectum | gender: Male | disease state: ulcerative colitis
+GSE214695	GSM6614359	UC 6, scRNAseq, rectum	rectum	Homo sapiens	GPL18573	NA	total RNA	ulcerative colitis	rectum	NA	NA	NA	tissue: rectum | gender: Female | disease state: ulcerative colitis
+GSE214695	GSM6614360	CD 1, scRNAseq, ascending colon	ascending colon	Homo sapiens	GPL18573	NA	total RNA	Crohn’s disease	ascending colon	NA	NA	NA	tissue: ascending colon | gender: Female | disease state: Crohn’s disease
+GSE214695	GSM6614361	CD 2, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	Crohn’s disease	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: Crohn’s disease
+GSE214695	GSM6614362	CD 3, scRNAseq, descending colon	descending colon	Homo sapiens	GPL18573	NA	total RNA	Crohn’s disease	descending colon	NA	NA	NA	tissue: descending colon | gender: Female | disease state: Crohn’s disease
+GSE214695	GSM6614363	CD 4, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	Crohn’s disease	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: Crohn’s disease
+GSE214695	GSM6614364	CD 5, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	Crohn’s disease	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: Crohn’s disease
+GSE214695	GSM6614365	CD 6, scRNAseq, sigma	sigma	Homo sapiens	GPL18573	NA	total RNA	Crohn’s disease	sigma	NA	NA	NA	tissue: sigma | gender: Male | disease state: Crohn’s disease
